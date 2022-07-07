@@ -41,3 +41,12 @@ button.btn.btn-primary{
 .sobreNosotros__aluraGeek, .sobreNosotros__links, .formContacto{
     margin: 0 1rem 0 1rem;
 }
+textarea.form-control{
+    margin-bottom: 20px;
+}
+.sobreNosotros__links p a{
+    color: black;
+}
+.sobreNosotros__links p a:hover{
+    color: blue;
+}

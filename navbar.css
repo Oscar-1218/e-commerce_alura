@@ -1,3 +1,6 @@
+section.navbar{
+    height: 100px;
+}
 img.logoAluraGeek{
     height: 30px;
     width: 40px;
@@ -34,8 +37,12 @@ button.btn.btn-light:hover{
 }
 input.form-control.me-2{
     border-radius: 20px;
+    margin-left: 10px;
+    width: 18rem;
 }
 nav.navbar.bg-light{
     background: #F5F5F5 !important;
-
+}
+div.container-fluid{
+    justify-content: flex-start !important;
 }
