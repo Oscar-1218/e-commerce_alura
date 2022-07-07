@@ -1,0 +1,41 @@
+img.logoAluraGeek{
+    height: 30px;
+    width: 40px;
+}
+.palabra{
+    color: black;
+    height:18.5px;
+}
+
+.palabraGeek{
+    color: rgb(27, 27, 223);
+}
+a.navbar-brand{
+    align-items: center;
+    display: flex;
+}
+.container-fluid{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.container__form__button{
+    display: flex;
+}
+button.btn.btn-light{
+    background-color: blanchedalmond;
+    border: 2px solid lightcoral;
+    color: brown;
+    font-weight: 700;
+    margin-right: 5px;
+    width: 9rem;
+}
+button.btn.btn-light:hover{
+    border: 2px solid rgb(136, 72, 72);
+}
+input.form-control.me-2{
+    border-radius: 20px;
+}
+nav.navbar.bg-light{
+    background: #F5F5F5 !important;
+
+}

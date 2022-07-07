@@ -1,0 +1,43 @@
+.sobreNosotros{
+    background: #EAF2FD;
+    margin-top: 70px;
+    padding-top: 20px;
+}
+.sobreNosotros__container{
+    display: flex;
+    height: 330px;
+    justify-content: center;
+    margin-top: 64px;
+}
+.sobreNosotros__links{
+    width: 176px;
+    
+}
+.sobreNosotros__links__p{
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+}
+.formContacto{
+    height: 82px;
+    width: 560px;
+}
+
+button.btn.btn-primary{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 51px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px;
+    width: 144px;
+}
+
+#mensaje{ /*    esto esta incorrecto,  despues debo cambiarlo*/
+    height: 82px;
+}
+
+.sobreNosotros__aluraGeek, .sobreNosotros__links, .formContacto{
+    margin: 0 1rem 0 1rem;
+}
