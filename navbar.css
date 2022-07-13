@@ -1,5 +1,6 @@
 section.navbar{
-    height: 100px;
+    height: 115px;
+    background: #FFFFFF;
 }
 img.logoAluraGeek{
     height: 30px;
@@ -7,11 +8,17 @@ img.logoAluraGeek{
 }
 .palabra{
     color: black;
-    height:18.5px;
-}
+    font-weight: 700;
 
-.palabraGeek{
+}
+.palabraAlura{
     color: rgb(27, 27, 223);
+}
+p{ 
+    margin-bottom: 0 !important;
+}
+.palabraGeek{
+    color:black;
 }
 a.navbar-brand{
     align-items: center;
@@ -19,7 +26,6 @@ a.navbar-brand{
 }
 .container-fluid{
     display: flex;
-    /* justify-content: space-between; */
 }
 .container__form__button{
     display: flex;
@@ -30,7 +36,7 @@ button.btn.btn-light{
     color: brown;
     font-weight: 700;
     margin-right: 5px;
-    width: 9rem;
+    /* width: 9rem; */
 }
 button.btn.btn-light:hover{
     border: 2px solid rgb(136, 72, 72);
@@ -41,7 +47,7 @@ input.form-control.me-2{
     width: 18rem;
 }
 nav.navbar.bg-light{
-    background: #F5F5F5 !important;
+    background: #FFFFFF !important;
 }
 div.container-fluid{
     justify-content: flex-start !important;

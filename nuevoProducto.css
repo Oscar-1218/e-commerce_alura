@@ -1,0 +1,11 @@
+.agregarProd__form, .agregarProducto__titulo, .agregarProd__datos{
+    width: 559px;
+}
+.agregarProductos div{
+    display: flex;
+    justify-content: center;
+}
+.agregarProd__containerForm{
+    display: flex;
+    justify-content: center;
+}

@@ -42,13 +42,13 @@ div.containerproducto__titulo__verTodo{
     display: flex;
     align-items: center;
 }
-p{
+p{ 
     margin-bottom: 0 !important;
     color: black;
-    font-size: 16px;
-    font-family: 'Raleway';
+    /* font-size: 16px; */
+    /* font-family: 'Raleway'; */
     font-weight: 700;
-}   
+}    
 p a{
     color: #2A7AE4;
 }
@@ -56,9 +56,6 @@ a{
     text-decoration: none !important;
     display: flex;
     align-items: center;
-}
-a:hover{
-    background-color: powderblue;
 }
 .espacio{
     width: 800px;
