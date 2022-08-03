@@ -1,16 +1,16 @@
 .carousel-inner img {
+  height: 370px;
   width: 100%;
-  max-height: 460px;
 }
 .carousel-inner{
- height: 370px;
+  height: 370px;
 }
 
 .carousel{
   width: 100%;
 } 
 .containerCarousel{
-  border: 6px solid black;
+  border: 3px solid black;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -28,12 +28,12 @@ div .active{
 }
 
 .banner__escrito{
-  position: absolute; 
-  left: 60px;
-  bottom: 130px;
+  bottom: 30px;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  justify-content: space-between;
+  left: 60px;
+  position: absolute; 
 }
 .carousel-item .btn{
   margin-top: 8px;

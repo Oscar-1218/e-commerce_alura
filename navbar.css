@@ -1,6 +1,16 @@
-section.navbar{
-    height: 115px;
+header{
     background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-top: .85rem;
+    padding-bottom: .85rem;
+}
+/*  vh: viewPort = hight(abarca la altura 'responsive' del dispositivo, siendo 100vh para el max de pantalla).
+    vw: viewPort= width(abarca el ancho 'responsive' del dispositivo).   */
+section.navbar{
+    height: 8vh;
+    background: #FFFFFF;
+    width: 85%;
 }
 img.logoAluraGeek{
     height: 30px;
@@ -9,7 +19,6 @@ img.logoAluraGeek{
 .palabra{
     color: black;
     font-weight: 700;
-
 }
 .palabraAlura{
     color: rgb(27, 27, 223);
@@ -19,6 +28,18 @@ p{
 }
 .palabraGeek{
     color:black;
+}
+i.lupa.fa-solid{
+    color: #686262;
+    margin-top: 19px;
+    margin-left: -44px;
+}
+i.lupa.fa-solid:hover{
+    color: rgb(10, 12, 12);
+}
+
+i.lupaDeLogin.fa-solid{ /*ALURA LO HACE ASI */
+    display: none;
 }
 a.navbar-brand{
     align-items: center;

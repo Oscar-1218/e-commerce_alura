@@ -1,23 +1,47 @@
-.containerProductos{
-    display: flex;
-    justify-content: center;
+:root{
+    --cardWidth: 12,5rem;
+    --cardHeigth: 15.1rem;
+    --cardMargin:0.62rem
 }
-
-div.productos{
-    display: flex;
-    justify-content: space-between; /**/
-}
-div.producto{
-    border: 2px solid black;
+section.categoriaProductos{  /* ALURA*/
+    align-items: center;    
     display: flex;
     flex-direction: column;
-    height: 230px;
-    margin: 5px;
-    text-align: initial;
+    justify-content: space-between;
+    width: 100%;
 }
+
+div.producto__titulo{  /* ALURA */
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    margin-top: 2.1rem;
+    width: 85%;
+}
+.producto__titulo a{ /* Metodo para solo acceder a este 'a'(link)*/
+    color: #2A7AE4;
+    font-weight: 700;
+}
+.producto__titulo a i{
+    margin-top: 2px;
+}
+.productos{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 85%;
+}
+div.card{
+    width: var(--cardWidth);
+    height: var(--cardHeigth);
+    margin: var(--cardMargin);
+    box-sizing: border-box;  /* Respeta que sea de 400x400px, toma en cuenta el margin y padding y border */
+}
+
 .producto__img{
-    height: 140px;
-    width: 160px;
+    display: flex;
+    height: 9rem;
+    width: 10rem;
 }
 .nombreProducto{
     font-style: normal;
@@ -26,13 +50,9 @@ div.producto{
     font-style: normal;
     font-size: 18px;
 }
-.producto__verTodo, svg.bi.bi-arrow-right{
-    margin-right: 5px;
-    color: #2A7AE4;
-}
 
 
-div.containerproducto__titulo__verTodo{
+div.containerproductoNombre{
     margin-top: 3rem;
     display: flex;
     justify-content: center;
@@ -45,8 +65,6 @@ div.containerproducto__titulo__verTodo{
 p{ 
     margin-bottom: 0 !important;
     color: black;
-    /* font-size: 16px; */
-    /* font-family: 'Raleway'; */
     font-weight: 700;
 }    
 p a{
@@ -57,12 +75,10 @@ a{
     display: flex;
     align-items: center;
 }
-.espacio{
-    width: 800px;
-}
-.espacio2{
-    width: 825px;
-}
-.espacio3{
-    width: 835px;
+
+
+@media (min-width:320px) and (max-width:760px){ /*a partir de 320 inicia y en 760 caduca. \De nada!\*/
+    .container__verTodo{
+        background-color: blue; /*solo es de prueba*/
+    }
 }
