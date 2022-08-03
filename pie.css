@@ -11,3 +11,8 @@
 .pieDesarrollado__firma{
     display: flex;
 }
+.pieName{
+    margin-bottom: 0 !important;
+    color: black;
+    font-weight: 700;
+}

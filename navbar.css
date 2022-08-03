@@ -1,5 +1,5 @@
 header{
-    background: #FFFFFF;
+    background: #F5F5F5;
     display: flex;
     justify-content: center;
     padding-top: .85rem;
@@ -9,7 +9,7 @@ header{
     vw: viewPort= width(abarca el ancho 'responsive' del dispositivo).   */
 section.navbar{
     height: 8vh;
-    background: #FFFFFF;
+    background: #F5F5F5;
     width: 85%;
 }
 img.logoAluraGeek{
@@ -68,7 +68,7 @@ input.form-control.me-2{
     width: 18rem;
 }
 nav.navbar.bg-light{
-    background: #FFFFFF !important;
+    background: #F5F5F5 !important;
 }
 div.container-fluid{
     justify-content: flex-start !important;

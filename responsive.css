@@ -4,12 +4,12 @@ background-size:cover; (se encarga de ocupar todo el espacio que le hemos design
 background-size:auto; (muestra solo la parte que logra entrar en el espacio designado)
 lo ideal es 'cover' + background-repeat: no-repeat;
 */
-@media(max-width:960px){
+/* @media(max-width:960px){
     
     .sobreNosotros__links p a{
         line-height: 2;
     }
-}
+} */
 
 @media(min-width:320px) and (max-width:760px){
     
@@ -55,11 +55,24 @@ lo ideal es 'cover' + background-repeat: no-repeat;
     .sobreNosotros__links p a{
         line-height: 3;
     }
+    /*nuevos productos */
+    .agregarProd__datos{
+        width: 95%;
+    }
+    h2.agregarProducto__titulo{
+        width: auto;
+    }
+    
+    
 }
 
 @media (max-width:320px){
     header{
         padding-bottom: 0;
+    }
+    img.logoAluraGeek {
+        height: 1.4rem;
+        width: 1.4rem;
     }
     
     section.navbar{
@@ -156,5 +169,47 @@ lo ideal es 'cover' + background-repeat: no-repeat;
     }
     button.btn.btn-primary{
         height: 41px;
+    }
+    /* iniciar Sesion */
+    .inSesion__form.form-control{
+        font-size: 0.8rem;
+    }
+    /* nuevo producto*/
+    button.btn.btn-light{
+        font-size: 15px;
+        line-height: 1;
+        font-weight: 600;
+    }
+    .agregarProd__datos{
+        width: 95%;
+    }
+    
+    .agregarProductos div{
+        display: flex;
+        justify-content: center;
+    }
+    h2.agregarProducto__titulo{
+        width: auto;
+        line-height: 1;
+        margin-top: 17px;
+        margin-left: 1rem;
+    }
+    button.btn.btn-light {
+        font-weight: 700;
+        margin-right: 5px;
+    }
+    p.palabra, a {
+        font-size: 0.8rem;
+    }
+}
+
+@media(min-width:320px) and (max-width:460px){ 
+    section.newProduct {
+        flex-direction: column;
+        display: flex;
+        height: auto;
+    }  
+    #newProduct__lupa{
+        margin: 1.2rem;
     }
 }

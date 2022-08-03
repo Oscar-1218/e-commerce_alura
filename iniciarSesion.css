@@ -7,8 +7,14 @@
 }
 .inSesion__form{
     height:62px;
-    width: 423px !important;
+    width: 95% !important;
+    max-width: 423px;
 }
 .textArea__p{
     color: rgb(133, 125, 125);
+}
+button.btn.btn-primary a{
+    font-size: larger;
+    font-weight: 600;
+    color: black;
 }

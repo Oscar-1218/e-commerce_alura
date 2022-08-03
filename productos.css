@@ -75,10 +75,3 @@ a{
     display: flex;
     align-items: center;
 }
-
-
-@media (min-width:320px) and (max-width:760px){ /*a partir de 320 inicia y en 760 caduca. \De nada!\*/
-    .container__verTodo{
-        background-color: blue; /*solo es de prueba*/
-    }
-}
