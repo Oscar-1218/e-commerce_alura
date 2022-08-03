@@ -170,6 +170,13 @@ lo ideal es 'cover' + background-repeat: no-repeat;
     button.btn.btn-primary{
         height: 41px;
     }
+    button.btn.btn-light {
+        font-weight: 700;
+        margin-right: 5px;
+    }
+    p.palabra, a {
+        font-size: 0.8rem;
+    }
     /* iniciar Sesion */
     .inSesion__form.form-control{
         font-size: 0.8rem;
@@ -177,8 +184,8 @@ lo ideal es 'cover' + background-repeat: no-repeat;
     /* nuevo producto*/
     button.btn.btn-light{
         font-size: 15px;
-        line-height: 1;
         font-weight: 600;
+        line-height: 1;
     }
     .agregarProd__datos{
         width: 95%;
@@ -189,24 +196,17 @@ lo ideal es 'cover' + background-repeat: no-repeat;
         justify-content: center;
     }
     h2.agregarProducto__titulo{
-        width: auto;
         line-height: 1;
-        margin-top: 17px;
+        margin: 17px 0 -10px 0;
         margin-left: 1rem;
-    }
-    button.btn.btn-light {
-        font-weight: 700;
-        margin-right: 5px;
-    }
-    p.palabra, a {
-        font-size: 0.8rem;
+        width: auto;
     }
 }
 
 @media(min-width:320px) and (max-width:460px){ 
     section.newProduct {
-        flex-direction: column;
         display: flex;
+        flex-direction: column;
         height: auto;
     }  
     #newProduct__lupa{
