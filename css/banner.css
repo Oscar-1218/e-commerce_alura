@@ -1,0 +1,71 @@
+.carousel-inner img {
+  height: 370px;
+  width: 100%;
+}
+.carousel-inner{
+  height: 370px;
+}
+
+.carousel{
+  width: 100%;
+} 
+.containerCarousel{
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.container__form__button{
+    border: 3px solid rebeccapurple;
+}
+
+button.carousel-control-next, button.carousel-control-prev {
+  width: auto;
+}
+
+div .active{
+  position: relative;
+}
+
+.banner__escrito{
+  bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 60px;
+  position: absolute; 
+}
+.carousel-item .btn{
+  margin-top: 8px;
+}
+
+.banner__h2{
+  color: rgb(245, 190, 10);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+}
+.banner__p{
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+@keyframes anim{
+  0% {color: #ff0;} /*Amarillo*/
+ 25% {color: #f80;} /*Naranja*/
+ 50% {color: grey;} 
+ 75% {color: #f80;} /*Otra vez naranja*/
+ 100% {color: whitesmoke;} 
+}
+.banner__p {
+animation-name: anim;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+.banner div button.btn.btn-primary{
+  height: 51px;
+  width: 129px;
+}

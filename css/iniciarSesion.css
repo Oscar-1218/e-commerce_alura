@@ -1,0 +1,20 @@
+.iniciarSesion{
+    margin-top: 3rem;
+}
+.iniciarSesion div{
+    display: flex;
+    justify-content: center;
+}
+.inSesion__form{
+    height:62px;
+    width: 95% !important;
+    max-width: 423px;
+}
+.textArea__p{
+    color: rgb(133, 125, 125);
+}
+button.btn.btn-primary a{
+    font-size: larger;
+    font-weight: 600;
+    color: black;
+}

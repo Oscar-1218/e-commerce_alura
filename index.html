@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images E-comerce/logoEcomerce.ico" />   <!-- Agrego icono a la pagina-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="css/sobreNosotros.css">
+    <link rel="stylesheet" href="css/pie.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <title>Mio</title>
+    <!-- url donde explican la logica 
+      https://www.youtube.com/watch?v=dkM62zptQ10&ab_channel=AluraLatam
+      No olvidar de levantar el server local->  json-server -w db.json
+     -->
+
+    <header>
+    <section class="navbar">
+      <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <img class="logoAluraGeek" src="images E-comerce\Vector.png" alt=""><p class="palabra palabraAlura">Alura</p><p class="palabra palabraGeek">Geek</p>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="¿Que deseas buscar?" aria-label="Search">
+            <i type="submit" class="lupa fa-solid fa-magnifying-glass fa-lg"></i>
+          </form>
+        </div>
+      </nav>
+      <button type="button" class="btn btn-light"><a href="http://127.0.0.1:5501/iniciarSesion.html">Ingresar</a></button>
+      <i type="submit" class="lupaDeLogin fa-solid fa-magnifying-glass fa-lg" href=""></i>
+    </section>
+  </header>
+
+    <section class="banner">
+        <div class="containerCarousel">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images E-comerce/banner-E.jpg" class="d-block w-100" alt="...">
+                    <div class="banner__escrito">
+                      <h2 class="banner__h2">Junio promocional</h2>
+                      <p class="banner__p">Productos seleccionados con 33% off</p>
+                      <button type="submit" class="btn btn-primary">Ver consolas</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images E-comerce/banner-E2.webp" class="d-block w-100" alt="...">
+                    <div class="banner__escrito">
+                      <h2 class="banner__h2">Junio promocional</h2>
+                      <p class="banner__p">Productos seleccionados con 33% off</p>
+                      <button type="submit" class="btn btn-primary">Ver consolas</button>
+                    </div> 
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images E-comerce/banner-E3.jpg" class="d-block w-100" alt="...">
+                    <div class="banner__escrito">
+                      <h2 class="banner__h2">Junio promocional</h2>
+                      <p class="banner__p">Productos seleccionados con 33% off</p>
+                      <button type="submit" class="btn btn-primary">Ver consolas</button>
+                    </div> 
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images E-comerce/banner-E4.jpg" class="d-block w-100" alt="...">
+                    <div class="banner__escrito"> 
+                      <h2 class="banner__h2">Junio promocional</h2>
+                      <p class="banner__p">Productos seleccionados con 33% off</p>
+                      <button type="submit" class="btn btn-primary">Ver consolas</button>
+                    </div> 
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </section>
+          
+
+<section class="categoriaProductos">
+
+  <div class="producto__titulo" data-tituloCategoria> 
+    <!--<h2>Stars Wars</h2>
+    <a href="">Ver todo<i class="fa-solid fa-arrow-right-long"></i></a> --> 
+  </div>
+    <div class="productos" data-productos> <!--PRODUCTOS en alura-->
+      
+  </div>
+      
+
+        <div class="producto__titulo">
+          <h2>Diversos</h2>
+          <a href="">Ver todo<i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+    <div class="productos">
+      <div class="card">
+        <img src="images E-comerce\imgEdiversos1.jpg" alt="" class="producto__img">
+        <p class="nombreProducto">Producto XYZ</p>
+        <p class="precio">$ 60.00</p>
+        <p class="verProducto"><a href="">Ver producto</a></p>
+      </div>
+      <div class="card">
+        <img src="images E-comerce\imgEdiversos2.jpg" alt="" class="producto__img">
+        <p class="nombreProducto">Producto XYZ</p>
+        <p class="precio">$ 60.00</p>
+        <p class="verProducto"><a href="">Ver producto</a></p>
+      </div>
+      <div class="card">
+        <img src="images E-comerce\imgEdiversos3.jpg" alt="" class="producto__img">
+        <p class="nombreProducto">Producto XYZ</p>
+        <p class="precio">$ 60.00</p>
+        <p class="verProducto"><a href="">Ver producto</a></p>
+      </div>
+      <div class="card">
+        <img src="images E-comerce\imgEdiversos4.jpg" alt="" class="producto__img">
+        <p class="nombreProducto">Producto XYZ</p>
+        <p class="precio">$ 60.00</p>
+        <p class="verProducto"><a href="">Ver producto</a></p>
+      </div>
+      <div class="card">
+        <img src="images E-comerce\imgEdiversos5.jpg" alt="" class="producto__img">
+        <p class="nombreProducto">Producto XYZ</p>
+        <p class="precio">$ 60.00</p>
+        <p class="verProducto"><a href="">Ver producto</a></p>
+      </div>
+      <div class="card">
+        <img src="images E-comerce\imgEdiversos6.jpg" alt="" class="producto__img">
+        <p class="nombreProducto">Producto XYZ</p>
+        <p class="precio">$ 60.00</p>
+        <p class="verProducto"><a href="">Ver producto</a></p>
+      </div>
+    </div>
+       
+
+    <div class="producto__titulo">
+      <h2>Consolas</h2>
+      <a href="">Ver todo<i class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+    <div class="productos">
+      <div class="card">
+        <img src="images E-comerce\imgEconsola1.jpg" alt="" class="producto__img" >
+        <p class="nombreProducto">Producto XYZ</p>
+        <p class="precio">$ 60.00</p>
+        <p class="verProducto"><a href="">Ver producto</a></p>
+        <div class="productos_btnUD">
+          <i class="ediciones fa-solid fa-pencil fa-lg"  data-editar></i>
+          <i class="ediciones fa-solid fa-trash-can fa-lg" data-eliminar></i>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images E-comerce\imgEconsola2.jpg" alt="" class="producto__img">
+        <p class="nombreProducto">Producto XYZ</p>
+        <p class="precio">$ 60.00</p>
+        <p class="verProducto"><a href="">Ver producto</a></p>
+      </div>
+      <div class="card">
+        <img src="images E-comerce\imgEconsola3.jpg" alt="" class="producto__img">
+        <p class="nombreProducto">Producto XYZ</p>
+        <p class="precio">$ 60.00</p>
+        <p class="verProducto"><a href="">Ver producto</a></p>
+      </div>
+      <div class="card">
+        <img src="images E-comerce\imgEconsola4.jpg" alt="" class="producto__img">
+        <p class="nombreProducto">Producto XYZ</p>
+        <p class="precio">$ 60.00</p>
+        <p class="verProducto"><a href="">Ver producto</a></p>
+      </div>
+      <div class="card">
+        <img src="images E-comerce\imgEconsola5.jpg" alt="" class="producto__img">
+        <p class="nombreProducto">Producto XYZ</p>
+        <p class="precio">$ 60.00</p>
+        <p class="verProducto"><a href="">Ver producto</a></p>
+      </div>
+      <div class="card">
+        <img src="images E-comerce\imgEconsola6.jpg" alt="" class="producto__img">
+        <p class="nombreProducto">Producto XYZ</p>
+        <p class="precio">$ 60.00</p>
+        <p class="verProducto"><a href="">Ver producto</a></p>
+      </div> 
+    </div>
+  </section>
+  
+  <section class="sobreNosotros">
+    <div class="sobreNosotros__container">
+      <div class="alurageekYsobrenosotros"> 
+        <div class="sobreNosotros__aluraGeek">
+          <a class="navbar-brand"><img class="logoAluraGeek" src="images E-comerce\Vector.png" alt=""><p class="palabra palabraAlura">Alura</p><p   class="palabra palabraGeek">Geek</p></a>
+        </div>
+        <div class="sobreNosotros__links">
+          <p class="sobreNosotros__links__p"><a href="">Quienes somos</a></p>
+          <p class="sobreNosotros__links__p"><a href="">Politica de privacidad</a></p>
+          <p class="sobreNosotros__links__p"><a href="">Programa de fidelidad</a></p>
+          <p class="sobreNosotros__links__p"><a href="">Nuestras tiendas</a></p>
+          <p class="sobreNosotros__links__p"><a href="">Quiero ser franquiciado</a></p>
+          <p class="sobreNosotros__links__p"><a href="">Anuncie aqui</a></p>
+        </div>
+      </div> 
+    <div class="formContacto">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Habla con nosotros</label>
+        <input type="name" class="form-control" id="nombre" placeholder="Nombre">
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Escribe tu mensaje" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Escribe tu mensaje</label>
+      </div>
+
+      <button type="submit" class="formContacto__btn btn btn-primary">Enviar mensaje</button>
+    </form>
+  </div>
+</div>
+  </section>
+
+  <section class="pie">
+    <div class="pieDesarrollado">
+      <div class="pieDesarrollado__firma">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
+          <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61Z"/>
+          <path d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9Zm-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376ZM3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+        </svg>
+        <p class="pieName">Ariel Oscar Masetto</p>
+    </div> 
+    <!-- https://oscar-1218.github.io/e-commerce_alura/ -->
+      <p class="pieName">2022</p>
+    </div>
+  </section>
+
+  </head>
+<body>
+    <script src="https://kit.fontawesome.com/89b03c48a4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script type="module" src="controllers/readD-productos-controller.js"></script>
+  </body>
+</html>

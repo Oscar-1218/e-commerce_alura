@@ -1,0 +1,75 @@
+header{
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    padding-top: .85rem;
+    padding-bottom: .85rem;
+}
+/*  vh: viewPort = hight(abarca la altura 'responsive' del dispositivo, siendo 100vh para el max de pantalla).
+    vw: viewPort= width(abarca el ancho 'responsive' del dispositivo).   */
+section.navbar{
+    height: 8vh;
+    background: #F5F5F5;
+    width: 85%;
+}
+img.logoAluraGeek{
+    height: 30px;
+    width: 40px;
+}
+.palabra{
+    color: black;
+    font-weight: 700;
+}
+.palabraAlura{
+    color: rgb(27, 27, 223);
+}
+p{ 
+    margin-bottom: 0 !important;
+}
+.palabraGeek{
+    color:black;
+}
+i.lupa.fa-solid{
+    color: #686262;
+    margin-top: 19px;
+    margin-left: -44px;
+}
+i.lupa.fa-solid:hover{
+    color: rgb(10, 12, 12);
+}
+
+i.lupaDeLogin.fa-solid{ /*ALURA LO HACE ASI */
+    display: none;
+}
+a.navbar-brand{
+    align-items: center;
+    display: flex;
+}
+.container-fluid{
+    display: flex;
+}
+.container__form__button{
+    display: flex;
+}
+button.btn.btn-light{
+    background-color: blanchedalmond;
+    border: 2px solid lightcoral;
+    color: brown;
+    font-weight: 700;
+    margin-right: 5px;
+    /* width: 9rem; */
+}
+button.btn.btn-light:hover{
+    border: 2px solid rgb(136, 72, 72);
+}
+input.form-control.me-2{
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 18rem;
+}
+nav.navbar.bg-light{
+    background: #F5F5F5 !important;
+}
+div.container-fluid{
+    justify-content: flex-start !important;
+}

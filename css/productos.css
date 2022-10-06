@@ -1,0 +1,104 @@
+:root{
+    --cardWidth: 12,5rem;
+    --cardHeigth: 15.1rem;
+    --cardMargin:0.62rem
+}
+section.categoriaProductos{  /* ALURA*/
+    align-items: center;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div.producto__titulo{  /* ALURA */
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    margin-top: 2.1rem;
+    width: 85%;
+}
+
+/* Boton editar y elim*/
+div.productos_btnUD{
+    display: flex;
+    justify-content: space-around;
+}
+i.ediciones.fa-solid{
+    padding: 5px;
+    margin: 5px 8px 0 8px;
+    color:rgb(24, 36, 24);
+}
+
+
+
+i.ediciones.fa-solid:hover{
+    transform: scale(1.26);
+}
+
+
+.producto__titulo a{ /* Metodo para solo acceder a este 'a'(link)*/
+    color: #2A7AE4;
+    font-weight: 700;
+}
+.producto__titulo a i{
+    margin-top: 2px;
+}
+.productos{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 85%;
+}
+div.card{
+    width: var(--cardWidth);
+    height: var(--cardHeigth);
+    margin: var(--cardMargin);
+    box-sizing: border-box;  /* Respeta que sea de 400x400px, toma en cuenta el margin y padding y border */
+    transition: 400ms;
+    
+}
+
+div.card:hover{
+    transform: scale(1.06);
+    border: 1px solid rgb(22, 95, 22);
+    box-sizing: border-box;
+}
+
+.producto__img{
+    display: flex;
+    height: 9rem;
+    width: 10rem;
+}
+.nombreProducto{
+    font-style: normal;
+}
+.precio{
+    font-style: normal;
+    font-size: 18px;
+}
+
+
+div.containerproductoNombre{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.container__verTodo{
+    display: flex;
+    align-items: center;
+}
+p{ 
+    margin-bottom: 0 !important;
+    color: black;
+    font-weight: 700;
+}    
+p a{
+    color: #2A7AE4;
+}
+a{
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+section.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 5%;
+}
+.btnRegresar{
+    border-radius: 6px;
+    font-size: large;
+    font-weight: 700;
+    background: gainsboro;
+    height: 50px;
+    margin-top: 5%;
+    width: 80%;
+}
+.a_btnRegresar{
+    display: contents;
+}
+.btnRegresar:hover{
+    transition-delay: 0.1s;
+    font-weight: 900;
+    background: rgb(223, 156, 156);
+}

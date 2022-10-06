@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/error.css">
+    <link rel="stylesheet" href="css/sobreNosotros.css">
+    <link rel="stylesheet" href="css/pie.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <title>AluraGeek</title>
+    <header>
+    <section class="newProduct navbar"> 
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+                <img class="logoAluraGeek" src="images E-comerce\Vector.png" alt=""><p class="palabra palabraAlura">Alura</p><p class="palabra palabraGeek">Geek</p>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="¿Que deseas buscar?" aria-label="Search">
+                    <i type="submit"  class="lupa fa-solid fa-magnifying-glass fa-lg"></i>
+                </form>
+            </div>
+        </nav>
+        <button type="button" id="btnMenuAdministrador" class="btn btn-light"><a href="http://127.0.0.1:5501/iniciarSesion.html">Menu administrador</a></button>
+      <i type="submit" id="newProduct__lupa" class="lupaDeLogin fa-solid fa-magnifying-glass fa-lg" href=""></i>
+    </section>
+    </header>
+
+  <section class="error">
+        <span class="register-card__icon-complete"></span>
+        <h1 class="mensaje_error">Ops! Ocurrió un error. Prueba de nuevo en unos minutos.</h1>
+        <button class="btnRegresar" ><a class="a_btnRegresar" href="http://127.0.0.1:5501/index.html">Regresar a inicio</a></button>
+  </section>
+    
+
+      <section class="sobreNosotros">
+        <div class="sobreNosotros__container">
+          <div class="alurageekYsobrenosotros"> 
+            <div class="sobreNosotros__aluraGeek">
+              <a class="navbar-brand"><img class="logoAluraGeek" src="images E-comerce\Vector.png" alt=""><p class="palabra palabraAlura">Alura</p><p   class="palabra palabraGeek">Geek</p></a>
+            </div>
+            <div class="sobreNosotros__links">
+              <p class="sobreNosotros__links__p"><a href="">Quienes somos</a></p>
+              <p class="sobreNosotros__links__p"><a href="">Politica de privacidad</a></p>
+              <p class="sobreNosotros__links__p"><a href="">Programa de fidelidad</a></p>
+              <p class="sobreNosotros__links__p"><a href="">Nuestras tiendas</a></p>
+              <p class="sobreNosotros__links__p"><a href="">Quiero ser franquiciado</a></p>
+              <p class="sobreNosotros__links__p"><a href="">Anuncie aqui</a></p>
+            </div>
+          </div> 
+        <div class="formContacto">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Habla con nosotros</label>
+            <input type="name" class="form-control" id="nombre" placeholder="Nombre">
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Escribe tu mensaje" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Escribe tu mensaje</label>
+          </div>
+    
+          <button type="submit" class="formContacto__btn btn btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+      </section>
+    
+      <section class="pie">
+        <div class="pieDesarrollado">
+          <div class="pieDesarrollado__firma">
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
+              <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61Z"/>
+              <path d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9Zm-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376ZM3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+            </svg>
+            <p class="pieName">Ariel Oscar Masetto</p>
+        </div>
+        <!-- https://oscar-1218.github.io/e-commerce_alura/ -->
+          <p class="pieName">2022</p>
+        </div>
+      </section>
+
+  <script src="https://kit.fontawesome.com/89b03c48a4.js" crossorigin="anonymous"></script>
+</body>
+</html>

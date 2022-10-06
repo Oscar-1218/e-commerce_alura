@@ -1,0 +1,215 @@
+/* 
+background-size:contain; (contenido de la imagen proporcional en alto y ancho a su tamaño original)
+background-size:cover; (se encarga de ocupar todo el espacio que le hemos designado.)
+background-size:auto; (muestra solo la parte que logra entrar en el espacio designado)
+lo ideal es 'cover' + background-repeat: no-repeat;
+*/
+/* @media(max-width:960px){
+    
+    .sobreNosotros__links p a{
+        line-height: 2;
+    }
+} */
+
+@media(min-width:320px) and (max-width:760px){
+    
+    i.lupaDeLogin.fa-solid{ /*ALURA LO HACE ASI */
+        display: flex;
+    }
+     input.form-control.me-2, i.lupa.fa-solid {
+        display: none;
+    }
+    
+    .banner__escrito{
+        left: 3%;
+    }
+    .banner__h2{
+        font-size: 2rem;
+    }
+    .banner__p{
+        font-size: 1rem;
+        font-weight: 500px;
+    }
+    .banner div button.btn.btn-primary{
+        height: 18px;
+        font-size: 0.8rem;
+        width: 109px;
+    }
+    p.palabra, a{
+        font-size: 0.8rem;
+    }
+    img.logoAluraGeek{
+        height: 1.4rem;
+        width: 1.4rem;
+    }   
+    .carousel-inner, .carousel-item img {
+        height: 250px;
+    }
+    .banner__h2{
+        line-height: 12px;
+    }
+    .alurageekYsobrenosotros{
+        display: inline-block;
+        width: 45%;
+    }
+    .sobreNosotros__links p a{
+        line-height: 3;
+    }
+    /*nuevos productos */
+    .agregarProd__datos{
+        width: 95%;
+    }
+    h2.agregarProducto__titulo{
+        width: auto;
+    }
+    
+    
+}
+
+@media (max-width:320px){
+    header{
+        padding-bottom: 0;
+    }
+    img.logoAluraGeek {
+        height: 1.4rem;
+        width: 1.4rem;
+    }
+    
+    section.navbar{
+        flex-direction: column;
+        display: flex;
+        height: auto;
+    }
+    .fa-magnifying-glass:before, .fa-search:before{
+        margin: 15px;
+        font-size:initial;
+    }
+    button.btn.btn-light{
+        align-items: center;
+        display: flex;
+        margin: 8px;
+        height: 36px;
+    }
+    div.container-fluid{
+        font-size: 0.8rem;
+    }
+    .producto__img{
+        width: 9rem;
+    }
+    input.form-control.me-2, i.lupa.fa-solid {
+        display: none;
+    }
+    i.lupaDeLogin.fa-solid{
+        display: flex;
+    }
+    .carousel-inner, .carousel-item img {
+        height: 200px;
+    }
+    
+    .banner__escrito{
+        left: 3%;
+    }
+    .banner__h2{
+        line-height: 0.8;
+        font-size: 25px;
+    }
+    .banner__p{
+        line-height: 1;
+        font-size: 15px;
+        font-weight: 500px;
+    }
+    .banner div button.btn.btn-primary{
+        height: 18px;
+        font-size: 0.8rem;
+        width: 109px;
+    }
+    
+    .banner div button.btn.btn-primary{
+        margin-bottom: -22px;
+    }
+    .producto__titulo a{
+        font-size: 0.8rem;
+        line-height: 1;
+        width: min-content;
+    }
+    .h2, h2{
+        font-size:20px !important;
+    }
+    .alurageekYsobrenosotros, .sobreNosotros__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 99%;
+    }
+    div.sobreNosotros__container{
+        height: auto;
+    }
+    .sobreNosotros__links{
+        width: 84vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sobreNosotros__links p a{
+        line-height: 3;
+        font-size: smaller;
+        justify-content: center;
+    }
+    .formContacto{
+        padding-top: 2rem;
+        width: 80vw;
+    }
+
+    a.navbar-brand{
+        display: flex;
+        justify-content: center;
+    }
+    .formContacto{
+        height: 300px;
+    }
+    button.btn.btn-primary{
+        height: 41px;
+    }
+    button.btn.btn-light {
+        font-weight: 700;
+        margin-right: 5px;
+    }
+    p.palabra, a {
+        font-size: 0.8rem;
+    }
+    /* iniciar Sesion */
+    .inSesion__form.form-control{
+        font-size: 0.8rem;
+    }
+    /* nuevo producto*/
+    button.btn.btn-light{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1;
+    }
+    .agregarProd__datos{
+        width: 95%;
+    }
+    
+    .agregarProductos div{
+        display: flex;
+        justify-content: center;
+    }
+    h2.agregarProducto__titulo{
+        line-height: 1;
+        margin: 17px 0 -10px 0;
+        margin-left: 1rem;
+        width: auto;
+    }
+}
+
+@media(min-width:320px) and (max-width:460px){ 
+    section.newProduct {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }  
+    #newProduct__lupa{
+        margin: 1.2rem;
+    }
+}

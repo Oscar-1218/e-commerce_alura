@@ -1,0 +1,20 @@
+.agregarProd__form, .agregarProducto__titulo, .agregarProd__datos{
+    width: 559px;
+    margin-top: 2rem;
+}
+.agregarProductos div{
+    display: flex;
+    justify-content: center;
+}
+.agregarProd__containerForm{
+    display: flex;
+    justify-content: center;
+}
+
+.agregarProd__datos input.form-control{ /*Nunca olvidarme de que va SinEspacios ej \\input.form-control De nada!*/
+    margin-bottom: 10px;
+}
+.edicion__producto{
+    display: flex;
+    justify-content: center;
+}
