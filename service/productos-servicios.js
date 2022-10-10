@@ -22,12 +22,12 @@ const readProducto = async (id) =>{
   return await respuesta.json();}
     
 //UPDATE
-  const updateProducto = (nombre,email,id) =>{
+  const updateProducto = (name, imageUrl, price, description,category,id) =>{
     return fetch(`http://localhost:3000/producto/${id}`,{
     method: 'PUT',
     headers: {
     'Content-Type':'application/json'},
-    body: JSON.stringify({nombre,email})
+    body: JSON.stringify({name, imageUrl, price, description,category})
   }).then((respuesta) => respuesta)
   .catch(err => console.log('Error al intentar modificar'))
   }

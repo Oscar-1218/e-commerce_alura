@@ -6,7 +6,6 @@ const formulario = document.querySelector("[data-form]");
 const obtenerInformacion = async () => {
   const url = new URL(window.location); //muetra distintas porpiedades del url print(url)
   const id = url.searchParams.get("id"); //obtenemos el parametro a travez del "id"
-  
   if (id === null) {        
     window.location.href = "http://127.0.0.1:5501/error.html"; //me redirige
   }
@@ -18,20 +17,16 @@ const obtenerInformacion = async () => {
   const description = document.querySelector("[data-description]")
   try {
     const producto = await productoServices.readProducto(id); //DETALLEcLIENTE
-    //console.log("->",producto.imageUrl)
     //↓↓↓ imprime por pantalla↓
     if (producto) {
         category.value = producto.category;
         urlImg.value = producto.imageUrl;
-
         const contenido = `
           <div>
             <img src="${producto.imageUrl}" alt="" class="producto__img" data-urlImg>
           </div>`;
         printImg.innerHTML = contenido;
-
-      
-
+    
         price.value = producto.price;
         name.value = producto.name;
         description.value = producto.description;
@@ -45,38 +40,35 @@ const obtenerInformacion = async () => {
 obtenerInformacion();
 
 
-/*
-let fnNewUrl = document.querySelector("[data-urlImg]") //donde muestra la ruta
-fnNewUrl.addEventListener("input", actualizar); //llamo a la funcion actualizar
-
+//ACTUALIZO LA IMAGEN DEL PRODUCTO.
+let fnNewUrl = document.querySelector("[data-urlImg]") 
+fnNewUrl.addEventListener("input", actualizar); 
 function actualizar(){
-  let newUrlImg = document.querySelector("[data-printImg]") //ruta que deseo actualizar para ver la nueva imagen
-  console.log(newUrlImg)
-  const url = new URL(window.location); //muetra distintas porpiedades del url print(url)
-  const id = url.searchParams.get("id"); 
-  //const producto = productoServices.readProducto(id);
-
-  const printImg = document.querySelector("[data-printImg]")
+  const printImg = document.querySelector("[data-printImg]") //ruta que deseo actualizar para ver la nueva imagen  
+  const urlImgActualizada = document.querySelector("[data-urlImg]").value
   const contenido = `
   <div>
-  <img src="${newUrlImg}" alt="" class="producto__img" data-urlImg>
+  <img src="${urlImgActualizada}" alt="" class="producto__img" data-urlImg>
   </div>`;
-  console.log("contenido",contenido)
+
   printImg.innerHTML = contenido;
 }
-*/
+
+
 ///aqui se ejecuta al dar click luego de editar
 formulario.addEventListener("submit", (evento) => {
-  console.log("Se edito correctamente")
   evento.preventDefault();
   const url = new URL(window.location);
-  const category = document.querySelector("[data-category]").value
-  const imgUrl = document.querySelector("[data-urlImg]").value
-  const price = document.querySelector("[data-price]").value
+  const id = url.searchParams.get("id");
+  console.log(id)
   const name = document.querySelector("[data-name]").value
+  const price = document.querySelector("[data-price]").value
+  const imageUrl = document.querySelector("[data-urlImg]").value
   const description = document.querySelector("[data-description]").value
-//   clientServices.actualizarCliente(nombre, email, id).then(() => { //ACTUALIZARcLIENTE
-//     window.location.href = "/screens/edicion_concluida.html";
-//   });
+  const category = document.querySelector("[data-category]").value
+  productoServices.updateProducto(name, imageUrl, price, description,category, id).then(() => { //ACTUALIZARcLIENTE
+    console.log("Se edito correctamente")
+  //window.location.href = "/screens/edicion_concluida.html";
+  });
 });
 //comentario
