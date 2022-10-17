@@ -40,9 +40,7 @@ const readProducto = async (id) =>{
   };
 
 
-function saludar(){
-  console.log("hola desde productosServices" )
-}
+
 
 
 /*con esto logro exportar los servicios y utilizarlos en otros archivos(que seran los controllers) */
@@ -51,5 +49,5 @@ export const productoServices = {
     createProducto,
     readProducto,
     updateProducto,
-    deleteProducto,saludar
+    deleteProducto,
 }
