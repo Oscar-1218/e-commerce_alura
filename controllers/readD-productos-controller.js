@@ -2,9 +2,7 @@ import {productoServices} from "../service/productos-servicios.js"
 
 //READ Y MUETRA POR PANTALLA
 
-
 let arrayCategorias = [];
-
 
 const nuevoProducto =( name, price, imageUrl,category,id) =>{         
     

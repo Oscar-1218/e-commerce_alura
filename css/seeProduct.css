@@ -1,0 +1,27 @@
+.productSelect__container{
+    margin: 2rem;
+}
+.productSelect__container__caracterist{
+    width: 92%;
+}
+.productSelect__nombre{
+    margin-left: 1rem;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imgYdescrip{
+    display: flex;
+}
+.productSelect__img{
+    border-radius: 5px;
+    height: 300px;
+    width: 380px;
+}
+.productSelect__p{
+    margin-left: 0.5rem;
+    font-weight: 500;
+}
+.productSelect__precio{
+    margin-left: 1rem;
+    font-weight: 700;
+}

@@ -37,6 +37,7 @@ const obtenerInformacion = async () => {
     console.log("Ups! Ocurrio un error")
   }
 };
+
 obtenerInformacion();
 
 
