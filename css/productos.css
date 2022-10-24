@@ -3,7 +3,7 @@
     --cardHeigth: 15.1rem;
     --cardMargin:0.62rem
 }
-section.categoriaProductos{  /* ALURA*/
+section.categoriaProductos, .nombre__categoria{  /* ALURA ,.mmmmmmmmmmm*/
     align-items: center;    
     display: flex;
     flex-direction: column;

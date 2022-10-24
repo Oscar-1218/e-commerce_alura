@@ -38,6 +38,9 @@ const readProducto = async (id) =>{
       method: "DELETE"
     })
   };
+  // const obtenerCateg(){
+  //   const prod = () => fetch("http://localhost:3000/producto").then(respuesta => respuesta.json());
+  // }
 
 
 
