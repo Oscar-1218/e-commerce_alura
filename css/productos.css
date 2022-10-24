@@ -16,7 +16,21 @@ div.producto__titulo{  /* ALURA */
     flex-direction: row; 
     justify-content: space-between;
     margin-top: 2.1rem;
-    width: 85%;
+}
+.productos{
+    display: flex;
+    justify-content:center; 
+    flex-wrap: wrap;
+    width: auto; 
+}
+
+/*porductos(cads)*/
+div.card{
+    width: var(--cardWidth);
+    height: var(--cardHeigth);
+    margin: var(--cardMargin);
+    box-sizing: border-box;  /* Respeta que sea de 400x400px, toma en cuenta el margin y padding y border */
+    transition: 400ms;    
 }
 
 /* Boton editar y elim*/
@@ -31,12 +45,10 @@ i.ediciones.fa-solid{
 }
 
 
-
+/*Formatos de letras y espaciados*/
 i.ediciones.fa-solid:hover{
     transform: scale(1.26);
 }
-
-
 .producto__titulo a{ /* Metodo para solo acceder a este 'a'(link)*/
     color: #2A7AE4;
     font-weight: 700;
@@ -44,27 +56,15 @@ i.ediciones.fa-solid:hover{
 .producto__titulo a i{
     margin-top: 2px;
 }
-.productos{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+
+div.container__articulos{
     width: 85%;
 }
-div.card{
-    width: var(--cardWidth);
-    height: var(--cardHeigth);
-    margin: var(--cardMargin);
-    box-sizing: border-box;  /* Respeta que sea de 400x400px, toma en cuenta el margin y padding y border */
-    transition: 400ms;
-    
-}
-
 div.card:hover{
     transform: scale(1.06);
     border: 1px solid rgb(22, 95, 22);
     box-sizing: border-box;
 }
-
 .producto__img{
     display: flex;
     height: 9rem;
@@ -79,12 +79,7 @@ div.card:hover{
 }
 
 
-div.containerproductoNombre{
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
-    
-}
+/*Ver todo ->*/
 .container__verTodo{
     display: flex;
     align-items: center;
