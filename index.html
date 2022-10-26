@@ -86,110 +86,117 @@
             </div>
           </section>
           
-<section class="categoriaProductos" >
-  <div class="nombre__categoria" data-nombreCategoria>
-    <div class="producto__titulo"  > 
-    <!--<h2>Stars Wars</h2>
-      <a href="">Ver todo<i class="fa-solid fa-arrow-right-long"></i></a> -->
-    </div> 
-  </div>
-      <div class="productos" data-productos> 
-        <!--PRODUCTOS en alura-->
-      </div>
-  </div>
-      
-      <div class="nombre__categoria">
+<section class="categoriaProductos" data-categoria-articulos>
+<!--  ESTO LO CREO CON JS -->
+      <!-- <div class="container__articulos">     
+          <div class="productos" data-productos> 
+            CATEGORIA y PRODUCTO en alura
+          </div>
+        </div> -->
+
+    
+
+      <div class="container__articulos" >
+            <div class="producto__titulo">
+              <h2>Diversos</h2>
+              <a href="">Ver todo<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+               <div class="productos"> 
+                <div class="card">
+                  <img src="images E-comerce\imgEdiversos1.jpg" alt="" class="producto__img">
+                  <p class="nombreProducto">Producto XYZ</p>
+                  <p class="precio">$ 60.00</p>
+                  <p class="verProducto"><a href="">Ver producto</a></p>
+                  <div class="productos_btnUD">
+                    <a href="http://127.0.0.1:5501/editar.html?id=${id}" data-id>
+                      <i class="ediciones fa-solid fa-pencil fa-lg" data-editar></i>
+                    </a>
+                      <i class="ediciones fa-solid fa-trash-can fa-lg" id=${id} data-eliminar></i>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images E-comerce\imgEdiversos2.jpg" alt="" class="producto__img">
+                  <p class="nombreProducto">Producto XYZ</p>
+                  <p class="precio">$ 60.00</p>
+                  <p class="verProducto"><a href="">Ver producto</a></p>
+                </div>
+                <div class="card">
+                  <img src="images E-comerce\imgEdiversos3.jpg" alt="" class="producto__img">
+                  <p class="nombreProducto">Producto XYZ</p>
+                  <p class="precio">$ 60.00</p>
+                  <p class="verProducto"><a href="">Ver producto</a></p>
+                </div>
+                <div class="card">
+                  <img src="images E-comerce\imgEdiversos4.jpg" alt="" class="producto__img">
+                  <p class="nombreProducto">Producto XYZ</p>
+                  <p class="precio">$ 60.00</p>
+                  <p class="verProducto"><a href="">Ver producto</a></p>
+                </div>
+                <div class="card">
+                  <img src="images E-comerce\imgEdiversos5.jpg" alt="" class="producto__img">
+                  <p class="nombreProducto">Producto XYZ</p>
+                  <p class="precio">$ 60.00</p>
+                  <p class="verProducto"><a href="">Ver producto</a></p>
+                </div> 
+                <div class="card">
+                  <img src="images E-comerce\imgEdiversos6.jpg" alt="" class="producto__img">
+                  <p class="nombreProducto">Producto XYZ</p>
+                  <p class="precio">$ 60.00</p>
+                  <p class="verProducto"><a href="">Ver producto</a></p>
+                </div> 
+              </div>
+            </div>
+
+     
+
+      <div class="container__articulos"> 
           <div class="producto__titulo">
-            <h2>Diversos</h2>
+            <h2>Consolas</h2>
             <a href="">Ver todo<i class="fa-solid fa-arrow-right-long"></i></a>
           </div>
-      </div>
-    <div class="productos">
-      <div class="card">
-        <img src="images E-comerce\imgEdiversos1.jpg" alt="" class="producto__img">
-        <p class="nombreProducto">Producto XYZ</p>
-        <p class="precio">$ 60.00</p>
-        <p class="verProducto"><a href="">Ver producto</a></p>
-      </div>
-      <div class="card">
-        <img src="images E-comerce\imgEdiversos2.jpg" alt="" class="producto__img">
-        <p class="nombreProducto">Producto XYZ</p>
-        <p class="precio">$ 60.00</p>
-        <p class="verProducto"><a href="">Ver producto</a></p>
-      </div>
-      <div class="card">
-        <img src="images E-comerce\imgEdiversos3.jpg" alt="" class="producto__img">
-        <p class="nombreProducto">Producto XYZ</p>
-        <p class="precio">$ 60.00</p>
-        <p class="verProducto"><a href="">Ver producto</a></p>
-      </div>
-      <div class="card">
-        <img src="images E-comerce\imgEdiversos4.jpg" alt="" class="producto__img">
-        <p class="nombreProducto">Producto XYZ</p>
-        <p class="precio">$ 60.00</p>
-        <p class="verProducto"><a href="">Ver producto</a></p>
-      </div>
-      <div class="card">
-        <img src="images E-comerce\imgEdiversos5.jpg" alt="" class="producto__img">
-        <p class="nombreProducto">Producto XYZ</p>
-        <p class="precio">$ 60.00</p>
-        <p class="verProducto"><a href="">Ver producto</a></p>
-      </div>
-      <div class="card">
-        <img src="images E-comerce\imgEdiversos6.jpg" alt="" class="producto__img">
-        <p class="nombreProducto">Producto XYZ</p>
-        <p class="precio">$ 60.00</p>
-        <p class="verProducto"><a href="">Ver producto</a></p>
-      </div>
-    </div>
-   <!--</div>aqui finaliza el container categoria y sus productos  -->
-
-    <div class="producto__titulo">
-      <h2>Consolas</h2>
-      <a href="">Ver todo<i class="fa-solid fa-arrow-right-long"></i></a>
-    </div>
-    <div class="productos">
-      <div class="card">
-        <img src="images E-comerce\imgEconsola1.jpg" alt="" class="producto__img" >
-        <p class="nombreProducto">Producto XYZ</p>
-        <p class="precio">$ 60.00</p>
-        <p class="verProducto"><a href="">Ver producto</a></p>
-        <div class="productos_btnUD">
-          <i class="ediciones fa-solid fa-pencil fa-lg"  data-editar></i>
-          <i class="ediciones fa-solid fa-trash-can fa-lg" data-eliminar></i>
+          <div class="productos">
+            <div class="card">
+              <img src="images E-comerce\imgEconsola1.jpg" alt="" class="producto__img" >
+              <p class="nombreProducto">Producto XYZ</p>
+              <p class="precio">$ 60.00</p>
+              <p class="verProducto"><a href="">Ver producto</a></p>
+              <div class="productos_btnUD">
+                <i class="ediciones fa-solid fa-pencil fa-lg"  data-editar></i>
+                <i class="ediciones fa-solid fa-trash-can fa-lg" data-eliminar></i>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images E-comerce\imgEconsola2.jpg" alt="" class="producto__img">
+              <p class="nombreProducto">Producto XYZ</p>
+              <p class="precio">$ 60.00</p>
+              <p class="verProducto"><a href="">Ver producto</a></p>
+            </div>
+            <div class="card">
+              <img src="images E-comerce\imgEconsola3.jpg" alt="" class="producto__img">
+              <p class="nombreProducto">Producto XYZ</p>
+              <p class="precio">$ 60.00</p>
+              <p class="verProducto"><a href="">Ver producto</a></p>
+            </div>
+            <div class="card">
+              <img src="images E-comerce\imgEconsola4.jpg" alt="" class="producto__img">
+              <p class="nombreProducto">Producto XYZ</p>
+              <p class="precio">$ 60.00</p>
+              <p class="verProducto"><a href="">Ver producto</a></p>
+            </div>
+            <div class="card">
+              <img src="images E-comerce\imgEconsola5.jpg" alt="" class="producto__img">
+              <p class="nombreProducto">Producto XYZ</p>
+              <p class="precio">$ 60.00</p>
+              <p class="verProducto"><a href="">Ver producto</a></p>
+            </div>
+            <div class="card">
+              <img src="images E-comerce\imgEconsola6.jpg" alt="" class="producto__img">
+              <p class="nombreProducto">Producto XYZ</p>
+              <p class="precio">$ 60.00</p>
+              <p class="verProducto"><a href="">Ver producto</a></p>
+            </div> 
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="images E-comerce\imgEconsola2.jpg" alt="" class="producto__img">
-        <p class="nombreProducto">Producto XYZ</p>
-        <p class="precio">$ 60.00</p>
-        <p class="verProducto"><a href="">Ver producto</a></p>
-      </div>
-      <div class="card">
-        <img src="images E-comerce\imgEconsola3.jpg" alt="" class="producto__img">
-        <p class="nombreProducto">Producto XYZ</p>
-        <p class="precio">$ 60.00</p>
-        <p class="verProducto"><a href="">Ver producto</a></p>
-      </div>
-      <div class="card">
-        <img src="images E-comerce\imgEconsola4.jpg" alt="" class="producto__img">
-        <p class="nombreProducto">Producto XYZ</p>
-        <p class="precio">$ 60.00</p>
-        <p class="verProducto"><a href="">Ver producto</a></p>
-      </div>
-      <div class="card">
-        <img src="images E-comerce\imgEconsola5.jpg" alt="" class="producto__img">
-        <p class="nombreProducto">Producto XYZ</p>
-        <p class="precio">$ 60.00</p>
-        <p class="verProducto"><a href="">Ver producto</a></p>
-      </div>
-      <div class="card">
-        <img src="images E-comerce\imgEconsola6.jpg" alt="" class="producto__img">
-        <p class="nombreProducto">Producto XYZ</p>
-        <p class="precio">$ 60.00</p>
-        <p class="verProducto"><a href="">Ver producto</a></p>
-      </div> 
-    </div>
   </section>
   
   <section class="sobreNosotros">
@@ -242,6 +249,7 @@
 <body>
     <script src="https://kit.fontawesome.com/89b03c48a4.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script type="module" src="controllers/readD-productos-controller.js"></script>
+    <script type="module" src="controllers/RD-productos-controllers.js"></script>
+    <!-- <script type="module" src="controllers/readD-productos-controller.js"></script> -->
   </body>
 </html>
