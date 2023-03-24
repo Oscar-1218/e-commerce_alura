@@ -1,5 +1,5 @@
 import { productoServices } from "../service/productos-servicios.js";
-////AQUI SE TOMA LOS DATOS INGRESADOS A TRAVEZ DEL addProductos
+
 
 const form = document.querySelector('[data-form]');
 
